@@ -47,7 +47,7 @@ h3 {
 
 h4 {
   margin: 5px 5px 50px 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 form {
@@ -99,6 +99,7 @@ section {
     /*border: 1px solid black;*/
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.285);
     border-radius: 40px;
+  overflow:-moz-hidden-unscrollable;
 }
 
 .allpriv {
@@ -110,7 +111,6 @@ section {
 }
 
 footer {
-  z-index: 1;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -204,7 +204,7 @@ label {
   cursor:none;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  left: -90px;
+  left: -40px;
 }
 
 .dropdown-content a {
