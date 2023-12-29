@@ -1,6 +1,6 @@
 body {
   text-align: center;
-    font-family: Arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 auto;
     padding: 0;
     font-weight: bold;
@@ -111,6 +111,7 @@ section {
 }
 
 footer {
+  z-index: 2;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -196,6 +197,7 @@ label {
 }
 
 .dropdown-content {
+  font-family: cursive;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -204,7 +206,8 @@ label {
   cursor:none;
   box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  left: -40px;
+  top: -150px;
+  left: -60px;
 }
 
 .dropdown-content a {
